@@ -1,1 +1,111 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>INR BRAND | মানসম্মত পোশাক</title>
+<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#1b1b1f;--gold:#c9a24b;--cream:#faf6ee;--muted:#6d6d78;--wa:#25d366}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Hind Siliguri',sans-serif;background:var(--cream);color:var(--ink);line-height:1.7}
+a{text-decoration:none;color:inherit}
+.wrap{max-width:1100px;margin:0 auto;padding:0 18px}
+header{position:sticky;top:0;z-index:10;background:var(--ink);color:#fff}
+nav{display:flex;justify-content:space-between;align-items:center;height:58px}
+.logo{font-weight:700;font-size:21px;letter-spacing:2px;color:var(--gold)}
+nav ul{display:flex;gap:16px;list-style:none;font-size:14px}
+@media(max-width:560px){nav ul li:nth-child(3){display:none}}
+.hero{background:linear-gradient(160deg,#1b1b1f 0%,#2e2a22 100%);color:#fff;text-align:center;padding:76px 0 70px}
+.hero small{color:var(--gold);letter-spacing:3px}
+.hero h1{font-size:clamp(34px,9vw,60px);line-height:1.25;margin:10px 0 14px}
+.hero p{color:#cfcfd6;max-width:520px;margin:0 auto 26px}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:13px 28px;border-radius:30px;font-weight:600;font-size:16px;background:var(--wa);color:#fff}
+.btn.gold{background:var(--gold);color:#1b1b1f}
+section{padding:54px 0}
+h2{font-size:28px;text-align:center}
+.sub{color:var(--muted);text-align:center;margin-bottom:28px}
+.grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+.card{background:#fff;border-radius:18px;padding:24px;box-shadow:0 4px 18px rgba(0,0,0,.06)}
+.card .ic{font-size:32px}
+.card h3{margin:8px 0 4px}
+.card p{color:var(--muted);font-size:15px}
+.grade{border-top:4px solid var(--gold);text-align:center}
+.grade b{display:inline-block;background:var(--ink);color:var(--gold);border-radius:30px;padding:2px 16px;margin-bottom:8px}
+.dark{background:var(--ink);color:#fff}
+.dark .sub{color:#b8b8c4}
+.dark .card{background:#26262c;box-shadow:none}
+.dark .card p{color:#b8b8c4}
+.note{font-size:13px;color:var(--muted);text-align:center;margin-top:14px}
+.review{border-left:4px solid var(--gold)}
+.review .who{margin-top:10px;font-weight:600;font-size:14px}
+.cta{text-align:center;background:linear-gradient(135deg,var(--gold),#e6c875)}
+.cta h2{margin-bottom:8px}
+.cta p{margin-bottom:20px}
+footer{background:var(--ink);color:#b8b8c4;text-align:center;padding:24px 0;font-size:14px}
+.float{position:fixed;right:16px;bottom:16px;z-index:20;width:58px;height:58px;border-radius:50%;background:var(--wa);display:flex;align-items:center;justify-content:center;font-size:28px;box-shadow:0 6px 18px rgba(0,0,0,.3)}
+</style>
+</head>
+<body>
+<header><div class="wrap"><nav>
+<div class="logo">INR BRAND</div>
+<ul><li><a href="#quality">মান</a></li><li><a href="#grade">গ্রেড</a></li><li><a href="#why">কেন আমরা</a></li><li><a href="#reviews">মতামত</a></li></ul>
+</nav></div></header>
+
+<div class="hero"><div class="wrap">
+<small>INR BRAND</small>
+<h1>রুচিশীল পোশাক,<br>আপনার ব্যক্তিত্বের প্রতিচ্ছবি</h1>
+<p>আরামদায়ক কাপড়, নিপুণ সেলাই আর ন্যায্য মূল্য। পছন্দের পোশাকটি এখন এক বার্তাতেই অর্ডার করুন WhatsApp-এ।</p>
+<a class="btn" href="https://wa.me/8801646779729?text=%E0%A6%86%E0%A6%AE%E0%A6%BF%20INR%20BRAND%20%E0%A6%A5%E0%A7%87%E0%A6%95%E0%A7%87%20%E0%A6%85%E0%A6%B0%E0%A7%8D%E0%A6%A1%E0%A6%BE%E0%A6%B0%20%E0%A6%95%E0%A6%B0%E0%A6%A4%E0%A7%87%20%E0%A6%9A%E0%A6%BE%E0%A6%87" target="_blank" rel="noopener">💬 WhatsApp-এ অর্ডার করুন</a>
+</div></div>
+
+<section id="quality"><div class="wrap">
+<h2>পোশাকের মান</h2><p class="sub">প্রতিটি পোশাকে আমরা যা নিশ্চিত করি</p>
+<div class="grid">
+<div class="card"><div class="ic">🧵</div><h3>নির্বাচিত কাপড়</h3><p>যত্নে বাছাই করা ফেব্রিক, যা পরতে আরামদায়ক এবং দীর্ঘস্থায়ী।</p></div>
+<div class="card"><div class="ic">✂️</div><h3>নিপুণ সেলাই</h3><p>মজবুত বুনন ও পরিপাটি ফিনিশিং, প্রতিটি খুঁটিনাটিতে যত্নের ছোঁয়া।</p></div>
+<div class="card"><div class="ic">🎨</div><h3>স্থায়ী রঙ</h3><p>বারবার ধোয়ার পরও রঙের উজ্জ্বলতা অটুট থাকে।</p></div>
+<div class="card"><div class="ic">📏</div><h3>সঠিক মাপ</h3><p>সব সাইজেই নিখুঁত ফিটিং, যাতে পরে পাবেন স্বাচ্ছন্দ্য আর আত্মবিশ্বাস।</p></div>
+</div></div></section>
+
+<section id="grade" class="dark"><div class="wrap">
+<h2>আমাদের গ্রেড</h2><p class="sub">বাজেট অনুযায়ী পছন্দের গ্রেড বেছে নিন</p>
+<div class="grid">
+<div class="card grade"><b>প্রিমিয়াম</b><h3>অভিজাত কালেকশন</h3><p>সর্বোচ্চ মানের কাপড় ও নিখুঁত ফিনিশিং, বিশেষ উপলক্ষের জন্য আদর্শ।</p></div>
+<div class="card grade"><b>স্ট্যান্ডার্ড</b><h3>প্রতিদিনের সঙ্গী</h3><p>ভালো মান ও মানানসই দামের সুন্দর সমন্বয়।</p></div>
+<div class="card grade"><b>ইকোনমি</b><h3>সাশ্রয়ী কালেকশন</h3><p>সীমিত বাজেটেও মানসম্মত ও পরিপাটি পোশাক।</p></div>
+</div>
+<p class="note" style="color:#b8b8c4">গ্রেডের বিবরণ ও দাম আপনার আসল পণ্য অনুযায়ী বদলে নিন।</p>
+</div></section>
+
+<section id="why"><div class="wrap">
+<h2>কেন আমাদের বেছে নেবেন</h2><p class="sub">INR BRAND-এর বিশেষত্ব</p>
+<div class="grid">
+<div class="card"><div class="ic">💰</div><h3>ন্যায্য মূল্য</h3><p>পোশাকের মানের সাথে সামঞ্জস্যপূর্ণ সাশ্রয়ী দাম।</p></div>
+<div class="card"><div class="ic">🚚</div><h3>দ্রুত ডেলিভারি</h3><p>অর্ডারের পর যথাসম্ভব দ্রুত আপনার দুয়ারে পৌঁছে দেওয়ার প্রতিশ্রুতি।</p></div>
+<div class="card"><div class="ic">🤝</div><h3>বিশ্বস্ত সেবা</h3><p>ক্রেতার সন্তুষ্টি ও আস্থাই আমাদের সবচেয়ে বড় পাওনা।</p></div>
+<div class="card"><div class="ic">💬</div><h3>সহজ যোগাযোগ</h3><p>যেকোনো প্রশ্ন বা পরামর্শে WhatsApp-এ সরাসরি আমাদের সাথে কথা বলুন।</p></div>
+</div></div></section>
+
+<section id="reviews" style="background:#fff"><div class="wrap">
+<h2>কাস্টমারদের মতামত</h2><p class="sub">আমাদের ক্রেতারা কী বলছেন</p>
+<div class="grid">
+<div class="card review"><p>⭐⭐⭐⭐⭐<br>[এখানে আপনার প্রকৃত কাস্টমারের মতামত বসান]</p><div class="who">— কাস্টমারের নাম</div></div>
+<div class="card review"><p>⭐⭐⭐⭐⭐<br>[এখানে আপনার প্রকৃত কাস্টমারের মতামত বসান]</p><div class="who">— কাস্টমারের নাম</div></div>
+<div class="card review"><p>⭐⭐⭐⭐⭐<br>[এখানে আপনার প্রকৃত কাস্টমারের মতামত বসান]</p><div class="who">— কাস্টমারের নাম</div></div>
+</div>
+<p class="note">এই কার্ডগুলো ফাঁকা রাখা হয়েছে। আসল ক্রেতাদের মতামত পেলে এখানে যোগ করুন।</p>
+</div></section>
+
+<section class="cta"><div class="wrap">
+<h2>আপনার পছন্দের পোশাকটি আজই বেছে নিন</h2>
+<p>পছন্দের পোশাকের ছবি বা নাম আমাদের WhatsApp-এ পাঠান, বাকিটা আমরা সামলে নেব।</p>
+<a class="btn" href="https://wa.me/8801646779729" target="_blank" rel="noopener">💬 WhatsApp: 01646779729</a>
+</div></section>
+
+<footer>© ২০২৬ INR BRAND। সর্বস্বত্ব সংরক্ষিত।</footer>
+<a class="float" href="https://wa.me/8801646779729" target="_blank" rel="noopener" aria-label="WhatsApp">💬</a>
+</body>
+</html>
 INR-BRAND
